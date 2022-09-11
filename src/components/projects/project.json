@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "Project",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "Cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "minLength": 2,
+      "unique": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "RepoUrl": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HostedUrl": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DesignUrl": {
+      "type": "string"
+    }
+  }
+}

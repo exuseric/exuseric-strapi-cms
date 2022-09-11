@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blog_articles",
+  "info": {
+    "displayName": "Meta",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

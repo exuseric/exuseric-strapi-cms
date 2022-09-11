@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blog_featured_articles",
+  "info": {
+    "displayName": "Featured Articles",
+    "icon": "thumbs-up"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}

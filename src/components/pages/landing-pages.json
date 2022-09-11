@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_pages_landing_pages",
+  "info": {
+    "displayName": "Hero",
+    "description": "",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "CallToAction": {
+      "type": "string"
+    },
+    "CallToActionLink": {
+      "type": "string"
+    }
+  }
+}

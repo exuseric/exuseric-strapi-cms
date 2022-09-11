@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blog_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SEOTitle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "SEODescription": {
+      "type": "text"
+    }
+  }
+}

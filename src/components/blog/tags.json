@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blog_tags",
+  "info": {
+    "displayName": "tags",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tags": {
+      "type": "enumeration",
+      "enum": [
+        "html",
+        "css",
+        "scss",
+        "javascript",
+        "typescript",
+        "accessibility",
+        "nuxt",
+        "next",
+        "react",
+        "vue",
+        "setup",
+        "tutorial"
+      ]
+    }
+  }
+}

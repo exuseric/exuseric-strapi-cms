@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blog_layout_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "ruler-combined",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cover": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
